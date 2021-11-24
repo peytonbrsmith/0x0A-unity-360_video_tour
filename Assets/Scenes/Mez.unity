@@ -1537,10 +1537,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187037, guid: 9f5a24a380916d14db9775daab4fe333, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f5a24a380916d14db9775daab4fe333, type: 3}
+--- !u!4 &1184892352 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2662825088597095482, guid: 5484830848b1fce4083f19f553fd90b2, type: 3}
+  m_PrefabInstance: {fileID: 1973806185}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1827729504
 GameObject:
   m_ObjectHideFlags: 0
@@ -1631,7 +1636,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 2083997125}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -1640,7 +1645,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_TargetDisplay: 0
 --- !u!224 &1827729509
 RectTransform:
@@ -1654,6 +1659,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 521308242}
+  - {fileID: 1184892352}
+  - {fileID: 1915598179}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1675,6 +1682,135 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fade: {fileID: 2051308971}
+--- !u!1001 &1915598178
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1827729509}
+    m_Modifications:
+    - target: {fileID: 643212074750171802, guid: 5484830848b1fce4083f19f553fd90b2, type: 3}
+      propertyPath: m_text
+      value: Holberton provides iMacs for students to use as well as plenty of open
+        desk space for those who opt to bring in their own laptops.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2662825088597095482, guid: 5484830848b1fce4083f19f553fd90b2, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2662825088597095482, guid: 5484830848b1fce4083f19f553fd90b2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -583
+      objectReference: {fileID: 0}
+    - target: {fileID: 2662825088597095482, guid: 5484830848b1fce4083f19f553fd90b2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 42.559692
+      objectReference: {fileID: 0}
+    - target: {fileID: 2662825088597095482, guid: 5484830848b1fce4083f19f553fd90b2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -30
+      objectReference: {fileID: 0}
+    - target: {fileID: 2662825088597095482, guid: 5484830848b1fce4083f19f553fd90b2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2662825088597095482, guid: 5484830848b1fce4083f19f553fd90b2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2662825088597095482, guid: 5484830848b1fce4083f19f553fd90b2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2662825088597095482, guid: 5484830848b1fce4083f19f553fd90b2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2662825088597095482, guid: 5484830848b1fce4083f19f553fd90b2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2662825088597095482, guid: 5484830848b1fce4083f19f553fd90b2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2662825088597095482, guid: 5484830848b1fce4083f19f553fd90b2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8686237464638654029, guid: 5484830848b1fce4083f19f553fd90b2, type: 3}
+      propertyPath: m_Name
+      value: textbutton (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5484830848b1fce4083f19f553fd90b2, type: 3}
+--- !u!4 &1915598179 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2662825088597095482, guid: 5484830848b1fce4083f19f553fd90b2, type: 3}
+  m_PrefabInstance: {fileID: 1915598178}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1973806185
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1827729509}
+    m_Modifications:
+    - target: {fileID: 643212074750171802, guid: 5484830848b1fce4083f19f553fd90b2, type: 3}
+      propertyPath: m_text
+      value: "Our mezzanine\u2019s booth seating encourages students to talk, collaborate,
+        and work together to solve problems."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2662825088597095482, guid: 5484830848b1fce4083f19f553fd90b2, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2662825088597095482, guid: 5484830848b1fce4083f19f553fd90b2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 484
+      objectReference: {fileID: 0}
+    - target: {fileID: 2662825088597095482, guid: 5484830848b1fce4083f19f553fd90b2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 42.559692
+      objectReference: {fileID: 0}
+    - target: {fileID: 2662825088597095482, guid: 5484830848b1fce4083f19f553fd90b2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -30
+      objectReference: {fileID: 0}
+    - target: {fileID: 2662825088597095482, guid: 5484830848b1fce4083f19f553fd90b2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2662825088597095482, guid: 5484830848b1fce4083f19f553fd90b2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2662825088597095482, guid: 5484830848b1fce4083f19f553fd90b2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2662825088597095482, guid: 5484830848b1fce4083f19f553fd90b2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2662825088597095482, guid: 5484830848b1fce4083f19f553fd90b2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2662825088597095482, guid: 5484830848b1fce4083f19f553fd90b2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2662825088597095482, guid: 5484830848b1fce4083f19f553fd90b2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8686237464638654029, guid: 5484830848b1fce4083f19f553fd90b2, type: 3}
+      propertyPath: m_Name
+      value: textbutton
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5484830848b1fce4083f19f553fd90b2, type: 3}
 --- !u!1 &2051308968
 GameObject:
   m_ObjectHideFlags: 0
@@ -1787,12 +1923,12 @@ MonoBehaviour:
     m_Name: Main Camera - TPD - Position
     m_Type: 0
     m_ExpectedControlType: Vector3
-    m_Id: 
+    m_Id: 92171a45-19da-49fe-902d-6616f7773592
     m_Processors: 
     m_Interactions: 
     m_SingletonActionBindings:
     - m_Name: 
-      m_Id: 
+      m_Id: 8ec724cc-7165-4217-835a-b35da2a92e22
       m_Path: <XRHMD>/centerEyePosition
       m_Interactions: 
       m_Processors: 
@@ -1803,12 +1939,12 @@ MonoBehaviour:
     m_Name: Main Camera - TPD - Rotation
     m_Type: 0
     m_ExpectedControlType: Quaternion
-    m_Id: 
+    m_Id: 1f973b23-deed-4bb3-b29b-4e895d65fc40
     m_Processors: 
     m_Interactions: 
     m_SingletonActionBindings:
     - m_Name: 
-      m_Id: 
+      m_Id: 56cdd645-77a1-48b7-b9e8-98ec00623e83
       m_Path: <XRHMD>/centerEyeRotation
       m_Interactions: 
       m_Processors: 

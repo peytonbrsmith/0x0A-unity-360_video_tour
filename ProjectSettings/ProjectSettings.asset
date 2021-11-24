@@ -47,7 +47,7 @@ PlayerSettings:
   defaultScreenWidthWeb: 960
   defaultScreenHeightWeb: 600
   m_StereoRenderingPath: 0
-  m_ActiveColorSpace: 0
+  m_ActiveColorSpace: 1
   m_MTRendering: 1
   mipStripping: 0
   numberOfMipsStripped: 0
@@ -138,7 +138,7 @@ PlayerSettings:
   preloadedAssets:
   - {fileID: 11400000, guid: bf2ff35e8a5d6f74b984f82724cf075e, type: 2}
   - {fileID: 11400000, guid: c21beaa4494b1034aba9c111291e6e37, type: 2}
-  - {fileID: -1141059277392107488, guid: 2c7538100bb3da843a4cedb05591aef9, type: 2}
+  - {fileID: -4256240538716435124, guid: 2c7538100bb3da843a4cedb05591aef9, type: 2}
   - {fileID: 11400000, guid: 3f846ffa9c8b8a842aef05e649b7222c, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -247,7 +247,7 @@ PlayerSettings:
   useCustomBaseGradleTemplate: 0
   useCustomGradlePropertiesTemplate: 0
   useCustomProguardFile: 0
-  AndroidTargetArchitectures: 1
+  AndroidTargetArchitectures: 2
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
@@ -690,7 +690,8 @@ PlayerSettings:
   scriptingDefineSymbols: {}
   additionalCompilerArguments: {}
   platformArchitecture: {}
-  scriptingBackend: {}
+  scriptingBackend:
+    Android: 1
   il2cppCompilerConfiguration: {}
   managedStrippingLevel: {}
   incrementalIl2cppBuild: {}

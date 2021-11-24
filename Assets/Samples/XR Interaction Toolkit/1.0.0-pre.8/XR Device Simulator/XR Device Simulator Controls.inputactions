@@ -395,6 +395,17 @@
                 },
                 {
                     "name": "",
+                    "id": "924a9755-6096-4903-a053-848db4f6dc49",
+                    "path": "<Touchscreen>/primaryTouch/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Manipulate Head",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "cd7dcdd6-b569-4c25-87ea-c62a0fb1cf89",
                     "path": "<Keyboard>/v",
                     "interactions": "",
@@ -408,6 +419,17 @@
                     "name": "",
                     "id": "2b070a4a-e044-4cbd-a8e2-6b362785bf21",
                     "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotate Mode Override",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "473edcf3-4a48-43f0-b9d7-df7dddbc1f2d",
+                    "path": "<Touchscreen>/primaryTouch/press",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -764,6 +786,17 @@
                     "name": "",
                     "id": "bc242731-d17f-4b22-aa06-3988e7cffc87",
                     "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fb94bc66-029f-47f0-982a-de9a308d99a5",
+                    "path": "<Touchscreen>/primaryTouch/press",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
