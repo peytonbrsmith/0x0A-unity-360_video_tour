@@ -1,0 +1,2 @@
+360VideoTour_Oculus filter=lfs diff=lfs merge=lfs -text
+360VideoTour_Windows filter=lfs diff=lfs merge=lfs -text
